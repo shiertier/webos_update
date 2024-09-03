@@ -6,7 +6,6 @@ CHECK_PATH="/webos/update/v1.vision"
 # 检查路径是否存在
 if [ ! -e "$CHECK_PATH" ]; then
     # 复制更新文件
-    cd /webos || exit
     mkdir -p /webos/update
     cp -r webos/0.1 /webos/update/
     # 增加执行权限
