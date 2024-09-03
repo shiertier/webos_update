@@ -8,7 +8,7 @@ if [ ! -e "$CHECK_PATH" ]; then
     # 复制更新文件
     cd /webos || exit
     mkdir -p /webos/update
-    cp -r /chenyudata/update/webos/0.1 update/
+    cp -r webos/0.1 /webos/update/
     # 增加执行权限
     chmod +x /webos/update/0.1/update.sh
     # 执行更新脚本
