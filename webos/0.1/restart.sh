@@ -2,11 +2,11 @@ i=1
 has=0
 while [ $i -le 30 ]
 do
-wget -q -O - "http://127.0.0.1:8088/webos/api" 2>&1|grep -c 404
+wget -q -O - "http://127.0.0.1:7002/webos/api" 2>&1|grep -c 404
 if [ $? -ne 0 ] ;then
-  curl -sL  "http://127.0.0.1:8088/webos/api" 2>&1|grep -c 404
+  curl -sL  "http://127.0.0.1:7002/webos/api" 2>&1|grep -c 404
   if [ $? -ne 0 ] ;then
-	sh restart.sh
+	sh restart_origin.sh
     sleep 10
     let i++
     echo "检测webos状态中..."
