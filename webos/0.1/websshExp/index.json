@@ -1,0 +1,13 @@
+{
+  "code": "websshExp",
+  "name": "终端扩展",
+  "version": "1.0.0",
+  "author": "系统",
+  "firstCat": "app",
+  "secondCat": "实用工具",
+  "imgPath": "apps/websshExp/icon.png",
+  "descr": "终端扩展",
+  "screenShots": "[]",
+  "effect": "终端扩展",
+  "updateLog":""
+}
