@@ -18,5 +18,5 @@ echo "sucess" > /webos/update/v1.vision
 rm -rf /webos/api/restart.sh
 cp -r /webos/update/0.1/restart.sh /webos/api/restart.sh
 cp -r /webos/update/0.1/restart_origin.sh /webos/api/restart_origin.sh
-chmod +x /webos/api/0.1/restart.sh
-chmod +x /webos/api/0.1/restart_origin.sh
+chmod +x /webos/api/restart.sh
+chmod +x /webos/api/restart_origin.sh
